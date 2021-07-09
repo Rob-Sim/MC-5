@@ -38,4 +38,12 @@ window.addEventListener('scroll', (e) => {
         //Draw the image onto canvas context
         drawImg()
     })
-})
+});
+
+//Preload images
+(function(){
+    for (let i = 1; i < 148; i++) {
+        const image = new Image()
+        image.src = currentFrame(i)
+    }
+})()
