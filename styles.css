@@ -1,5 +1,5 @@
 body{
-    height: 900vh;
+    height: 500vh;
     width: auto;
 
     display: flex;
@@ -20,7 +20,7 @@ body{
     background-color: transparent;
 
     width: 100%;
-    height: 900vh;
+    height: 500vh;
 
     position: fixed;
     top: 0;
